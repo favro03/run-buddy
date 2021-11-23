@@ -252,7 +252,7 @@ section {
     height:400px;
 }
 
-.contact-info div div{
+.contact-info div {
     width: 410px;
     display: inline-block;
     vertical-align: top;
@@ -260,4 +260,8 @@ section {
     margin: 30px 0 0 60px;
     color: white;
   }
+
+  
+
+
 /*end contact section*/
