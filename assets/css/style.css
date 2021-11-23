@@ -215,6 +215,10 @@ section {
     text-align: right;
 }
 
+.text-center {
+    text-align: right;
+}
+
 .trainer-bio h3 {
     font-size: 32px;
     margin-bottom: 8px;
@@ -227,7 +231,20 @@ section {
 }
 
 .trainer-bio p {
-font-size: 17pz;
-line-height: 1.3;
+    font-size: 17pz;
+    line-height: 1.3;
 }
-/*End Trainer Section/
+/*End Trainer Section*/
+
+/*start contact section*/
+.contact {
+    background-color: #024e76;
+    text-align: center;
+   
+    margin: 0 auto 0px auto;
+}
+.contact h2 {
+    color: #fce138;
+}
+
+/*end contact section*/
