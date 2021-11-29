@@ -140,9 +140,7 @@ section {
 /* Hero Style End */
 
 /* What we Do  */
-.intro {
-    text-align: center;
-}
+
 
 .intro p {
     line-height: 1.7;
@@ -150,6 +148,7 @@ section {
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
+    text-align: center;
 }
 
 /* End What we do */
@@ -157,17 +156,17 @@ section {
 /* What you do*/
 
 .steps {
-    text-align: center;
     background: #fce138;
 }
 
 .section-title {
     font-size: 55px;
     color:#024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
     border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
 }
 
 .primary-border {
@@ -205,7 +204,7 @@ section {
 
 /*Start trainer section*/
 .trainers {
-    text-align: center;
+   
 }
 
 .trainer {
@@ -225,18 +224,6 @@ section {
     padding: 35px;
     float: left;
     width: 65%;
-}
-
-.text-left{
-    text-align: left;
-}
-
-.text-right {
-    text-align: right;
-}
-
-.text-center {
-    text-align: right;
 }
 
 .trainer-bio h3 {
@@ -259,8 +246,6 @@ section {
 /*start contact section*/
 .contact {
     background-color: #024e76;
-    text-align: center;
-   
     margin: 0 auto 0px auto;
 }
 .contact h2 {
@@ -296,7 +281,24 @@ section {
   .contact-info a {
       color: #fce138
   }
-  
+  /*end contact section*/
 
+  /*Utility classes*/
 
-/*end contact section*/
+  .text-left{
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: right;
+}
+
+.flex-row {
+    display: flex;
+}
+
+/*End utility classes*/
