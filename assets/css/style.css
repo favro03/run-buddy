@@ -251,11 +251,20 @@ outline: none;
 }
 
 /* End What we do */
+/*section title styles*/
+.primary-border {
+    border-color: var(--primary-color);
+}
 
+.secondary-border {
+    border-color: var(--tertiary-color);
+}
+/*section title style*/
 /* What you do*/
 
 .steps {
     background: var(--primary-color);
+   
 }
 
 .step {
@@ -266,11 +275,12 @@ outline: none;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+   
 }
 
-.step:not(:last-child){
-    border-bottom: 1px solid var(--tertiary-color);
-}
+.step:not(:last-child) {
+    border-bottom: 1px solid #39a6b2;
+  }
 
 .section-title {
     font-size: 48px;
@@ -282,13 +292,7 @@ outline: none;
     width: 50%;
 }
 
-.primary-border {
-    border-color: var(--primary-color);
-}
 
-.secondary-border {
-    border-color: var(--tertiary-color);
-}
 
 .step h3 {
     color: var(--secondary-color);
@@ -319,7 +323,7 @@ outline: none;
 .step-text p {
     color: var(--tertiary-color);
     font-size: 18px;
-    flex: 12;
+    
 }
 
 .step-text h4 {
